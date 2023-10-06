@@ -41,11 +41,11 @@ body{
 
 ul > li > a {
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'NeutralFace';
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.075rem;
+    letter-spacing: 0.085rem;
     text-decoration: none;
 }
 
@@ -89,5 +89,11 @@ div.vertical-line.right {
     align-items: center;
     position:fixed;
     right: 0%;
+    height: 14rem;
+    justify-content: space-between;
+    
+}
+
+.classIcon:hover{
     
 }

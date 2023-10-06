@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face {
+    font-family: 'NeutralFace'; /* Give your font a name */
+    src: url('../fonts/NeutralFace.otf') format('truetype'); /* Relative path to the font file */
+    /* Additional font properties like font-weight and font-style can be set here */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'NeutralFace', sans-serif;
+}
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+    
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+ul > li > a {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'NeutralFace';
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.navBar > ul > li{
+    display: inline;
+}
+
+.navBar > ul{
+    width:30rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: #545454;
+}
+
+div.vertical-line {
+    height: 80px;
+  }
+
+div.vertical-line.right {
+    border-right: 1.1px solid #fff;
+   }
+
+
+.socialMedia{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+    right: 0%;
+    
+}

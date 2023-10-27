@@ -24,6 +24,7 @@ p{
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #fff;
 }
 
 .container{
@@ -79,21 +80,132 @@ div.vertical-line {
 
 div.vertical-line.right {
     border-right: 1.1px solid #fff;
+
    }
 
-
-.socialMedia{
-    width: 20%;
+   .socialMedia{
+    width: 19%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position:fixed;
+    position: absolute;
     right: 0%;
     height: 14rem;
     justify-content: space-between;
     
 }
 
-.classIcon:hover{
-    
+
+
+.socialIcon:hover{
+    transform: scale(1.4);
 }
+
+
+.vertical-mainPage{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      -webkit-transform: rotate(-90deg);
+
+      /* transform: rotate(-90deg); */
+      
+}
+
+#locationIcon{
+    padding-right: 0.69rem;
+}
+
+.home-hero{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15rem;
+  
+}
+
+.btn {
+    width: fit-content;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 8.4rem;
+    margin-top: 1.25rem;
+    position: relative;
+    position: absolute;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    
+  }
+  
+  .text {
+    padding: 0 80px;
+    visibility: hidden;
+  
+  }
+  
+  .flip-front, 
+  .flip-back {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-transform-style: flat;
+      transform-style: flat;
+      -webkit-transition: -webkit-transform .3s ease-out;
+      -o-transition: -o-transform .3s ease-out;
+      transition: transform .3s ease-out;
+      font-family: 'Neutral Face';
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.1125rem;
+      
+      
+  }
+  
+  .flip-front {
+      color: #545454;
+      border: 1px solid #545454;
+      border-radius: 10px;
+      background-color: transparent;
+      -webkit-transform: rotateX(0deg) translateZ(25px);
+      -ms-transform: rotateX(0deg) translateZ(25px);
+      -o-transform: rotateX(0deg) translateZ(25px);
+      transform: rotateX(0deg) translateZ(25px);
+      
+  }
+  
+  .flip-back {
+    color: #fff;
+    background-color: #678983;
+    border: 1px solid #678983;
+    border-radius: 10px;
+    -webkit-transform: rotateX(90deg) translateZ(25px);
+    -ms-transform: rotateX(90deg) translateZ(25px);
+    -o-transform: rotateX(90deg) translateZ(25px);
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  
+  .btn:hover .flip-front {
+      -webkit-transform: rotateX(-90deg) translateZ(25px);
+      -ms-transform: rotateX(-90deg) translateZ(25px);
+      -o-transform: rotateX(-90deg) translateZ(25px);
+      transform: rotateX(-90deg) translateZ(25px);
+  }
+  
+  .btn:hover .flip-back {
+      -webkit-transform: rotateX(0deg) translateZ(25px);
+      -ms-transform: rotateX(0deg) translateZ(25px);
+      -o-transform: rotateX(0deg) translateZ(25px);
+      transform: rotateX(0deg) translateZ(25px);
+  }
+
+ 
+
+  .box{
+    height: 100vh;
+  }
+
+  

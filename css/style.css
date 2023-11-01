@@ -233,15 +233,15 @@ div.vertical-line.right {
   }
 
   #joSmithPic{
-    width: 100%;
+    width: 60%;
     display: flex;
-    margin-left: 29rem;
+    margin-left: 32.3rem;
   }
 
 
 .aboutMe{
     display: flex;
-    margin-left:29.5rem;
+    margin-left:32.4rem;
     margin-top: 2.38rem;
     
 
@@ -306,24 +306,189 @@ margin-bottom: 8rem;
   }
 
   .bttn-float.bttn-primary.bttn-md.bttn-primary {
-    border-color: #fff;
+    border-color: #678983;
     border-style: double;
-    color: #fff;
-    background-color:#6c6c6c;
-    margin: 1.3rem;
+    color: #678983;
+    background-color:#fff;
     width: 9rem;
     height: 2.7rem;
-    margin-left: 69vw;
+    margin-top: 0.7rem;
+    border-radius: 10px;
+   
   }
 
   .buttonBack{
     background-color: #678983;
     border-radius: 0 0 10px 10px;
+    height: 3.7rem;
+    
 
   }
 
+
+  #buttonCenter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0.3rem 0rem;
+  }
+
+  footer{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1.75rem 0rem;
+  }
 
   footer > ul > li > a {
     color: #545454;
     
 } 
+
+footer > .socialMedia{
+  display: flex;
+  height: 4rem;
+}
+
+
+/* home page resp */
+@media (max-width: 767px) {
+ 
+ 
+
+}
+
+
+/* works */
+.worksSec{
+width: 100%;
+display: flex;
+flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 4.5rem;
+}
+
+.worksSec > img{
+  padding: 15px 0px;
+}
+
+.worksSec > h3{
+  color: #545454;
+font-family: Neutral Face;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.08rem;
+}
+
+
+
+/* Prices */
+
+.wrapper{
+  width: 100%;
+}
+
+.cards-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/images/camera.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.8);
+}
+
+.card-header {
+  margin-bottom: 40px;
+}
+
+.card-header h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 30px;
+  border-bottom: 1px groove #fff;
+  padding: 10px;
+}
+
+.card-header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.card-header sup {
+  font-size: 35px;
+}
+
+.card-header span {
+  font-size: 18px;
+}
+
+.card-body {
+  margin-bottom: 60px;
+}
+
+.card-body li {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.card-body i {
+  margin-right: 25px;
+}
+
+.card-body .fa-check {
+  color: #0d683a;
+}
+
+.card-body .fa-times {
+  color: #911832;
+}
+
+.card-footer {
+  margin-bottom: 40px;
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .container {
+    height: 100%;
+  }
+
+  .cards-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 50px;
+  }
+}

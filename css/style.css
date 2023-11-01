@@ -306,9 +306,24 @@ margin-bottom: 8rem;
   }
 
   .bttn-float.bttn-primary.bttn-md.bttn-primary {
-    border-color: #545454;
-    color: #545454;
-    background-color: #fff;
+    border-color: #fff;
+    border-style: double;
+    color: #fff;
+    background-color:#6c6c6c;
     margin: 1.3rem;
-    width: 8rem;
+    width: 9rem;
+    height: 2.7rem;
+    margin-left: 69vw;
   }
+
+  .buttonBack{
+    background-color: #678983;
+    border-radius: 0 0 10px 10px;
+
+  }
+
+
+  footer > ul > li > a {
+    color: #545454;
+    
+} 

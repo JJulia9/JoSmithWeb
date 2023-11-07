@@ -1,7 +1,7 @@
 //parallax
 
 // window.addEventListener('scroll', function() {
-//     let sections = document.querySelectorAll('section');
+//     let sections = document.querySelectorAll('.section');
 //     let scrollPosition = window.pageYOffset;
 
 //     sections.forEach(function(section, index) {
@@ -15,6 +15,15 @@
 //       }
 //     });
 //   });
+
+
+//works animation
+$(document).ready(function() {
+  setTimeout(function() {
+    $('.animate').addClass('in-view');
+  }, 300); // Adjust the delay in milliseconds (1000ms = 1 second)
+});
+
 
 
 console.clear();

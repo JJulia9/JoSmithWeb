@@ -373,6 +373,14 @@ flex-direction: column;
  justify-content: center;
  align-items: center;
  margin-top: 4.5rem;
+ opacity: 0;
+ transform: translateY(20px); /* You can adjust the values for your effect */
+ transition: opacity 0.5s, transform 0.5s;
+}
+
+.worksSec.in-view {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .worksSec > img{
@@ -388,6 +396,8 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.08rem;
 }
+
+
 
 
 
@@ -507,7 +517,7 @@ letter-spacing: 0.08rem;
 /* couple */
 
 .containerGallery {
-  max-width: 80rem;
+  max-width: 86rem;
   width: 100%;
   padding: 4rem 2rem;
   margin: 0 auto;

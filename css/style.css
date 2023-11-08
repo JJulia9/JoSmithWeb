@@ -591,3 +591,138 @@ letter-spacing: 0.08rem;
 
 
 }
+
+
+
+/* contactpage */
+
+
+.containerContact{
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5em 0rem;
+ 
+
+}
+
+.brand span{
+  color: #fff;
+}
+
+.wrapperContact{
+  justify-content: center;
+  box-shadow: 0 0 20px 0 #678983;
+  border-radius: 10px;
+}
+/* All direct elements within wrapper - give padding of 1em*/
+.wrapperContact > *{
+  padding: 1em;
+}
+
+.company-info{
+  background: #666;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.company-info h3, .company-info ul{
+  color:#fff;
+  text-align: center;
+  margin: 0 1rem;
+  letter-spacing: 0.1rem;
+  font-family: 'NeutralFace';
+  font-size: 14px;
+}
+
+
+
+.contactPage {
+  background-color: #64827c;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Form Styling */
+.contactPage form {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+
+}
+
+.contactPage form label {
+  display: block;
+  color: #fff;
+  
+}
+
+.contactPage form p {
+  margin: 0;
+  
+ 
+}
+
+.contactPage form .full{
+  grid-column: 1 / 3;
+  color: #fff;
+  letter-spacing: 1.8px;
+}
+
+.form-heading {
+text-align:center;
+font-size:20px;
+letter-spacing:1.8px;
+color: #fff;
+margin-bottom: 15px;
+}
+
+.contactPage form button, .contactPage form input, .contactPage form textarea{
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #496862;
+  background-color: #b9d3ce;
+  color: #333;
+  border-radius: 10px;
+}
+
+.contactPage form button{
+  background: #80A6CB;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.contactPage form button:hover, .contactPage form button:focus{
+  
+  background: #c6dcf2;
+  color: #545454;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+
+
+/* Large Screens */
+@media(min-width:700px){
+
+  .wrapperContact{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapperContact > *{
+      padding: 2em;
+  }
+  .company-info h3, .company-info ul, .brand {
+      text-align: left;
+  }
+
+
+  .contactPage {
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  .company-info{
+
+    
+    border-radius: 10px 0px 0px 10px;
+  }
+
+}

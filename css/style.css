@@ -726,3 +726,67 @@ margin-bottom: 15px;
   }
 
 }
+
+
+
+/* printPage */
+
+.workWrapper{
+  width: 80%;
+  margin: 0 auto;
+  height: fit-content;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0px 40px 0px;
+  
+}
+
+
+
+label , option{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  
+
+}
+
+
+
+select{
+  font-family: 'Open Sans', sans-serif;
+  width:200px;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+
+/* 
+option:checked,
+option :hover{
+  background-color: #678983;
+} */
+
+/* Increase specificity if needed */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  background-color: #333 !important;
+}
+
+
+.printsWrapper{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.printImg{
+  max-height: 800px;
+}
+
+.prints{
+  width: 40vw;
+}

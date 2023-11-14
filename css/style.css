@@ -32,7 +32,7 @@ p{
 .headers{
   color: #545454;
   opacity: 30%;
-    font-family: 'Neutral Face' sans-serif;
+    font-family: 'NeutralFace' sans-serif;
     font-size:2.25rem;
     font-style: normal;
     font-weight: 700;
@@ -162,7 +162,7 @@ div.vertical-line.right {
 
   .home-text h1{
     color: #545454;
-    font-family: 'Neutral Face' sans-serif;
+    font-family: 'NeutralFace' sans-serif;
     font-size: 5.625rem;
     font-style: normal;
     font-weight: 700;
@@ -172,7 +172,7 @@ div.vertical-line.right {
 
   .home-text h2{
     color: #545454;
-font-family: 'Neutral Face' sans-serif;
+font-family: 'NeutralFace' sans-serif;
 font-size: 2.8125rem;
 font-style: normal;
 font-weight: 400;
@@ -192,7 +192,7 @@ letter-spacing: 0.28125rem;
       -webkit-transition: -webkit-transform .3s ease-out;
       -o-transition: -o-transform .3s ease-out;
       transition: transform .3s ease-out;
-      font-family: 'Neutral Face';
+      font-family: 'NeutralFace';
       font-size: 1.125rem;
       font-style: normal;
       font-weight: 400;
@@ -262,9 +262,40 @@ letter-spacing: 0.28125rem;
     
   }
 
+  #ptm{
+  color: #545454;
+  font-family: 'NeutralFace'; 
+  font-size: 0.75rem; 
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+  letter-spacing: 0.21rem;
+  }
+
+  .aboutTextAndImg h2{
+    color: #678983;
+    font-family: 'NeutralFace';
+    font-size: 4.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.2rem;
+  }
+
   #joSmithPic{
     width: 60vw;
     margin-left: 28.2vw;
+  }
+
+  #descr{
+    color: #545454;
+    font-family: 'Open Sans';
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.09rem;
+    max-width: 32rem;
   }
 
 
@@ -275,9 +306,11 @@ letter-spacing: 0.28125rem;
     
 
 }
+
+
 .verticalH{
 color: #545454;
-font-family: Neutral Face;
+font-family: 'NeutralFace';
 font-size: 0.75rem;
 font-style: normal;
 font-weight: 700;
@@ -291,6 +324,17 @@ margin-bottom: 8rem;
 .box-works{
     margin-top: 5rem;
 
+}
+
+
+.box-works h2{
+  color: #FFF;
+    font-family: 'NeutralFace';
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.47188rem; background-color: #678983; height:3.7rem; margin-bottom: 1rem; border-radius: 10px 10px 0 0;
 }
 
 .gallery-wrap {
@@ -391,6 +435,15 @@ margin: 0;
 background-repeat: no-repeat;
 }
 
+.vertical-mainPage h3{
+  color: #678983;
+        font-family: 'NeutralFace';
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.09rem;
+}
 
 
 
@@ -412,6 +465,82 @@ background-repeat: no-repeat;
 
 .background{
   background-image: url(/images/backgroundMedia.jpg);
+}
+
+
+
+
+
+}
+
+/* home phone media */
+
+@media (max-width: 320px) {
+
+
+  .home-text h1{
+    font-size: 3rem;
+  }
+   
+  .home-text h2{
+    font-size: 1rem;
+  }
+    
+  .box-about{
+    margin-top: 35rem;
+  }
+  
+  .background{
+    background-image: url(/images/backgroundMedia.jpg);
+  }
+
+  
+.vertical-mainPage h3{
+  font-size: 0.75rem;
+}
+
+#logo{
+  width: 90px;
+}
+
+.logo{
+  width:fit-content;
+}
+.navBar > ul{
+
+  flex-direction: column;
+  }
+
+
+  .aboutTextAndImg h2{
+    font-size: 3rem;
+    letter-spacing: 2rem;
+
+}
+
+.btn {
+  margin-left: 6rem;
+}
+
+
+#ptm{
+  font-size: 1rem;
+}
+
+.aboutMe{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.verticalH{
+  -webkit-transform: rotate(0deg);
+  margin: 10px 0px;
+}
+
+.box-works h2{
+  font-size: 4rem;
+  letter-spacing: 0.7rem;
 }
 }
 
@@ -441,7 +570,7 @@ flex-direction: column;
 
 .worksSec > h3{
   color: #545454;
-font-family: Neutral Face;
+font-family: 'NeutralFace';
 font-size: 0.9rem;
 font-style: normal;
 font-weight: 400;
@@ -449,7 +578,11 @@ line-height: normal;
 letter-spacing: 0.08rem;
 }
 
-
+@media (max-width: 320px) {
+  .worksSec{
+    margin-top: 2rem;
+  }
+}
 
 
 
@@ -562,6 +695,16 @@ letter-spacing: 0.08rem;
 
   .card {
     margin: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card{
+    margin: 25px;
+  }
+
+  .cards-wrapper{
+    width: 100%;
   }
 }
 
@@ -749,6 +892,11 @@ margin-bottom: 15px;
   transition: background-color 2s ease-out;
 }
 
+iframe{
+  width: 300px;
+  height: 250px;
+}
+
 
 
 /* Large Screens */
@@ -779,7 +927,11 @@ margin-bottom: 15px;
 
 }
 
-
+@media (max-width: 320px){
+  iframe{
+    width: 200px;
+  }
+}
 
 /* printPage */
 
@@ -873,7 +1025,7 @@ option :hover{
 	margin: 0;
 	white-space: nowrap;
   color: #fff;
-  font-family: 'open sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 	
 /* 	transform: translatex(); */
 	

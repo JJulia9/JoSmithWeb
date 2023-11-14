@@ -135,7 +135,7 @@ div.vertical-line.right {
 .home-hero{
     display: flex;
     flex-direction: row;
-    padding-top: 15rem;
+    padding-top: 250px;
   
 }
 
@@ -242,7 +242,7 @@ letter-spacing: 0.28125rem;
 
  
 .box-about{
-    margin-top: 20rem;
+    margin-top:500px;
     margin-bottom: 4rem;
 
 }
@@ -459,9 +459,7 @@ background-repeat: no-repeat;
   font-size: 1.75rem;
 }
   
-.box-about{
-  margin-top: 40rem;
-}
+
 
 .background{
   background-image: url(/images/backgroundMedia.jpg);
@@ -486,9 +484,7 @@ background-repeat: no-repeat;
     font-size: 1rem;
   }
     
-  .box-about{
-    margin-top: 35rem;
-  }
+  
   
   .background{
     background-image: url(/images/backgroundMedia.jpg);

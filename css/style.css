@@ -475,7 +475,7 @@ background-repeat: no-repeat;
 
 /* home phone media */
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
 
 
   .home-text h1{
@@ -578,7 +578,7 @@ line-height: normal;
 letter-spacing: 0.08rem;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .worksSec{
     margin-top: 2rem;
   }
@@ -698,7 +698,7 @@ letter-spacing: 0.08rem;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
   .card{
     margin: 25px;
   }
@@ -927,7 +927,7 @@ iframe{
 
 }
 
-@media (max-width: 320px){
+@media (max-width: 480px){
   iframe{
     width: 200px;
   }

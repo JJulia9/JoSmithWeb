@@ -539,6 +539,9 @@ background-repeat: no-repeat;
   letter-spacing: 1rem;
 }
 
+.home-hero{
+  padding-top: 100px;
+}
 
 .box-about{
   margin-top: 300px;
